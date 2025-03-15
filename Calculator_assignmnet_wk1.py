@@ -1,6 +1,7 @@
 #This python programme builds a calculator that accepts two numbers and
 #operates on them using any of this operands, +,-, * and division.
 
+import math
 def calc():
     try:
         num_1 = float(input("Enter the first number: "))
